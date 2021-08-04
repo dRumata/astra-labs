@@ -1,0 +1,17 @@
+$TTL 1h
+
+@       IN      SOA ns root.server120 (
+                2021030801      ;serial
+                10800           ;refresh
+                900             ;retry
+                604800          ;expire
+                86400           ;negative cache ttl
+)
+@       IN NS   ns
+@       IN NS   gw120
+
+ns              IN              A       192.168.120.2
+server120       IN              A       192.168.120.2
+gw120           IN              A       192.168.120.1
+www             IN              CNAME   server120
+ftp             IN              CNAME   server120
