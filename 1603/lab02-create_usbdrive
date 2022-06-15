@@ -1,0 +1,10 @@
+fdisk /dev/sdb
+n
+p
+Номер раздела[enter]
+Первый сектор[enter]
+Последний сектор +1G
+w
+
+
+mkfs.ext4 /dev/sdb1
