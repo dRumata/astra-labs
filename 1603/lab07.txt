@@ -1,0 +1,23 @@
+1 Файл mem_monitor.sh
+#! /bin/bash
+/bin/echo -n `date`; /usr/bin/free -h | /usr/bin/awk '/^Mem/{print "\t" $4}'
+
+2 Файл /etc/cron.d/mem_monitor
+0-59/10 * * * * root /root/mem_monitor.sh >> /root/mem.txt
+
+3 systemctl --full --force edit mem_monitor.timer
+[Unit]
+Description=start /root/mem_monitor.sh every 5 min
+[Timer]
+OnCalendar=*:00/5:00
+AccuracySec=1us
+[Install]
+WantedBy=timers.target
+
+4 systemctl --full --force edit mem_monitor.service
+[Unit]
+Description=free memory monitoring
+[Service]
+Type=oneshot
+ExecStart=/root/mem_monitor.sh
+[Install]
