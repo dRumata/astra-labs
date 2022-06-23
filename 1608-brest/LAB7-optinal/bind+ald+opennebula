@@ -1,7 +1,6 @@
 DNS-server:
 
 sudo apt install bind9 dnsutils bind9utils
-sudo vim /etc/bind/named.conf
 sudo vim /etc/bind/named.conf.options
 sudo named-checkconf
 sudo vim /etc/bind/named.conf.local
