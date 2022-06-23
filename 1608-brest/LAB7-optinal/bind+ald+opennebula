@@ -4,7 +4,6 @@ sudo apt install bind9 dnsutils bind9utils
 sudo vim /etc/bind/named.conf.options
 sudo named-checkconf
 sudo vim /etc/bind/named.conf.local
-sudo mkdir /etc/bind9/zones
 sudo mkdir /etc/bind/zones
 sudo cp /etc/bind/db.local /etc/bind/zones/db.pvnet.example.ru
 sudo cp /etc/bind/db.127 /etc/bind/zones/db.225.168.192
