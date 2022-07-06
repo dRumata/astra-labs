@@ -7,4 +7,5 @@
 
 ## Текущие открытые репозитории курсов
 **ALSE1602** https://github.com/dRumata/ALSE1602-labs 
+
 **ALSE1603** https://github.com/dRumata/ALSE1603-labs
