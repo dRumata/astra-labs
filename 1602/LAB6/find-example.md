@@ -1,3 +1,5 @@
+Original from https://www.tecmint.com/35-practical-examples-of-linux-find-command/
+
 1. **Find Files Using Name in Current Directory**
 Find all the files whose name is tecmint.txt in a current working directory.
 ```
