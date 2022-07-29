@@ -1,12 +1,12 @@
 #SMOLENSK1.6
 # Основной репозиторий (установочный диск)
-deb https://dl.astralinux.ru/astra/stable/1.6_x86-64/repository smolensk main contrib non-free
+deb http://dl.astralinux.ru/astra/stable/1.6_x86-64/repository smolensk main contrib non-free
  
 # Актуальное оперативное обновление основного репозитория
-deb https://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-update/ smolensk main contrib non-free
+deb http://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-update/ smolensk main contrib non-free
  
 # Диск со средствами разработки
-deb https://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-dev/ smolensk main contrib non-free
+deb http://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-dev/ smolensk main contrib non-free
  
 # Актуальное оперативное обновление диска со средствами разработки
-deb https://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-dev-update/ smolensk main contrib non-free
+deb http://dl.astralinux.ru/astra/stable/1.6_x86-64/repository-dev-update/ smolensk main contrib non-free
