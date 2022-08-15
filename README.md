@@ -13,3 +13,5 @@
 **ALSE1604** https://github.com/dRumata/ALSE1604-labs
 
 **ALSE1605** https://github.com/dRumata/ALSE1605-labs
+
+**ALSE1608** https://github.com/dRumata/ALSE1608-labs
